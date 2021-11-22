@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(./pexels-reynaldo-brigworkz-brigantty-747101.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin-left: 470px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+ 
+div{
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    backdrop-filter: blur(6px);
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    font-size: 48px;
+    color: wheat;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.icons-top i{
+    position: relative;
+    top: -160px;
+    margin: 15px;
+    
+}
+
+.icons-top i:nth-child(1){
+    background-color: turquoise;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.icons-top i:nth-child(2){
+    background-color: #3b5998;
+    border-radius: 10px;
+    padding: 12px 23px;
+}
+
+.icons-top i:nth-child(3){
+    background-color: #1DA1F2;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.icons-top i:nth-child(4){
+    background: linear-gradient(45deg, #405DE6,
+    #5851DB, #833AB4, #C13384, #e1306c, #fd1d1d);
+    border-radius: 10px;
+    padding: 8px 12px;
+}
+
+
+section{
+    height: 480px;
+    position: relative;
+    right: 245px;
+    width: 480px;
+    border-radius: 10px;
+    display: flex;
+    font-size: 48px;
+    color: wheat;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icons-top-2 i{
+    position: relative;
+    top: -20px;
+    margin: 20px;
+    
+}
+
+.icons-top-2 i:nth-child(1){
+    background-color: #232f3e;
+    border-radius: 50%;
+    padding: 15px 17px;
+}
+
+.icons-top-2 i:nth-child(2){
+    background-color: #000000;
+    border-radius: 50%;
+    padding: 15px 17px;
+}
+
+.icons-top-2 i:nth-child(3){
+    background-color: #fff;
+    border-radius: 50%;
+    color: red;
+    padding: 15px 12px;
+}
+
+.icons-top-2 i:nth-child(4){
+    background: 	#128c7e ;
+    border-radius: 50%;
+    padding: 15px 17px;
+}
+
